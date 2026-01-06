@@ -1,0 +1,1 @@
+# write a program to chechk whether a number is prime or not 
