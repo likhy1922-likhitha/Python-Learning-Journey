@@ -1,0 +1,1 @@
+# write a program to  determine whether a student passes or fails based on the 1.Eac subject>=35 2.Avrage>=40

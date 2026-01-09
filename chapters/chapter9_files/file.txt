@@ -1,0 +1,3 @@
+
+now this content will be displayed in the terminal
+____________________Good Right!______________________

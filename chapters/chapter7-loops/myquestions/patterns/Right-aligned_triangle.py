@@ -1,0 +1,7 @@
+'''
+Right-aligned_triangle
+  *
+  **
+ ***
+****
+'''

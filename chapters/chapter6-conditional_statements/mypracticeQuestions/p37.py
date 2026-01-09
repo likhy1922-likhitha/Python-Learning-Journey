@@ -1,0 +1,1 @@
+# write a program to find the number is ugly(2,3,5 factors) or not 

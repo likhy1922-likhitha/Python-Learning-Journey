@@ -1,0 +1,1 @@
+# write a program to find the type of triangle (Equilateral ,Isocesel,scalen.)

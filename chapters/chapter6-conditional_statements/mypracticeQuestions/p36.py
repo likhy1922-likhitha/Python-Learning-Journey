@@ -1,0 +1,1 @@
+# write a program to ELectricity the bill calculations usiing the slabs

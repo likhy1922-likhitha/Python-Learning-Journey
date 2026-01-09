@@ -1,0 +1,1 @@
+# write a program to Find the day of the week using the number(1-7)

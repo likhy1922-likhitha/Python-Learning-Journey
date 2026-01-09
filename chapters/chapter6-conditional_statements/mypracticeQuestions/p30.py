@@ -1,0 +1,1 @@
+# write a program to check whether a number is power of 2 .

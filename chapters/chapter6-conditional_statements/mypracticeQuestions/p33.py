@@ -1,0 +1,1 @@
+# write a program to of atm withdraw logic : 1.Amount multiple of 100  2.Balance Sufficent
