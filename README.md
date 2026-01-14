@@ -1,28 +1,63 @@
-# Python Learning Journey 
+## Python Learning Journey
 
-This repository contains my weekly Python learning progress and mini projects.  
+I built this repository to track my weekly progress while learning Python through hands-on practice, problem-solving, and mini projects. Each week focuses on strengthening core concepts and applying them through real code.
 
-## Week 1 - Basics
-- Chapter 1: Modules & Comments
-- Chapter 2: Variables, Data Types & Operators
-- Chapter 3: Strings
-- Chapter 4: Lists & Tuples
-- Chapter 5: Dictionaries & Sets
+## Week 1 – Python Basics
 
-## Week 2 - Intermediate
-- Chapter 6: Conditional Expressions
-- Chapter 7: Loops
-- Chapter 8: Functions
-- Mini Projects:
-  - Snake Water Gun Game
-  - ATM Simulation
-- Games:
-  - Quiz
-  - Rock Paper Scissors
-  - Dice Roll
-  - Number Guessing Game
+I learned the fundamentals of Python programming, including how the language is structured and how basic data types work.
 
-## How to Run
-1. Clone the repo:
-```bash
-git clone https://github.com/YourUsername/Python-Learning-Journey.git
+Worked with modules and wrote clean comments
+
+Used variables, data types, and operators effectively
+
+Practiced string operations and formatting
+
+Managed data using lists and tuples
+
+Organized information using dictionaries and sets
+
+## Week 2 – Intermediate Concepts
+
+I focused on writing logical programs and improving problem-solving skills using conditions, loops, and functions.
+
+Implemented conditional expressions for decision-making
+
+Used loops to automate repetitive tasks
+
+Created reusable functions
+
+Mini Projects
+
+Built a Snake Water Gun game using conditional logic
+
+Developed an ATM simulation to practice real-world scenarios
+
+Games
+
+Created a quiz application
+
+Built Rock Paper Scissors
+
+Simulated dice rolls
+
+Developed a number guessing game
+
+## Week 3 – File Handling & Object-Oriented Programming
+
+I worked with files and applied object-oriented programming principles to write structured and maintainable code.
+
+Read from and wrote data to files
+
+Used append mode and the with statement safely
+
+Solved multiple file-handling practice problems
+
+Created classes and objects
+
+Implemented constructors and used the self keyword
+
+Differentiated between instance and class attributes
+
+Applied static methods
+
+Practiced OOP concepts through small programs
