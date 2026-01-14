@@ -1,0 +1,107 @@
+
+object:means it conatains the particular information,an real thing which is created from the class actually stores the data
+class:template.tell the what object should have and what it should do
+CLASS
+A class is a blueprint for creating object.
+Syntax:
+class Employee: # Class name is written in pascal case
+# Methods & Variables 
+OBJECT
+An object is an instantiation of a class. When class is defined, a template (info) is
+defined. Memory is allocated only after object instantiation.
+Objects of a given class can invoke the methods available to it without revealing the
+implementation details to the user. – Abstractions & Encapsulation!
+MODELLING A PROBLEM IN OOPS
+We identify the following in our problem.
+• Noun → Class → Employee
+• Adjective → Attributes → name, age, salary
+• Verbs → Methods → getSalary(), increment()
+
+
+class student():
+    course = "IT"
+    fee=4000000
+    timeLine="4years"
+
+shreya = student()
+shreya.name = "shreya"#this is an instance attribute
+shreya.course="cse"#it is updated here because instance attribute take the preference over class attribute
+print(shreya.name,shreya.course,shreya.fee,shreya.timeLine)
+priya = student()
+sneha=student()
+CLASS ATTRIBUTES
+An attribute that belongs to the class rather than a particular object.
+Example:
+class Employee:
+company = "Google" # Specific to Each Class
+harry = Employee() # Object Instatiation
+harry.company
+Employee.company = "YouTube" # Changing Class Attribute
+INSTANCE ATTRIBUTES
+An attribute that belongs to the Instance (object). Assuming the class from the previous
+example:
+harry.name = "harry"
+harry.salary = "30k" # Adding instance attribute
+Note: Instance attributes, take preference over class attributes during assignment &
+retrieval.
+When looking up for harry.attribute it checks for the following:
+1) Is attribute present in object?
+2) Is attribute present in class?
+SELF PARAMETER
+self refers to the instance of the class. It is automatically passed with a function call
+from an object.
+harry.getSalary() # here self is harry
+# equivalent to Employee.getSalary(harry)
+The function getSalary() is defined as:class Employee:
+company = "Google"
+def getSalary(self):
+print("Salary is not there")
+
+class student():
+    course = "IT"
+    fee=4000000
+    timeLine="4years"
+
+    def getInfo():
+        print(f"The fee is : {fee}.The time line is {timeLine},Enrolled course is {course} ")
+
+shreya = student()
+shreya.course="CSE"
+print
+
+shreya.getInfo()
+# it means so make it self
+#student.getInfo(shreya)
+ upadted code is:
+ class student():
+    course = "IT"
+    fee=4000000
+    timeLine="4years"
+
+    def getInfo(self):
+        print(f"The fee is : {self.fee}.The time line is {self.timeLine},Enrolled course is {self.course} ")
+
+shreya = student()
+shreya.course="CSE"
+print
+
+shreya.getInfo()
+#student.getInfo(shreya)
+#both are same 
+
+STATIC METHOD
+Sometimes we need a function that does not use the self-parameter. We can define a
+static method like this:
+@staticmethod # decorator to mark greet as a static method
+def greet():
+print("Hello user")__INIT__() CONSTRUCTOR
+__init__() is a special method which is first run as soon as the object is created.
+__init__() method is also known as constructor.
+It takes ‘self’ argument and can also take further arguments.
+For Example:
+class Employee:
+def __init__(self, name):
+self.name=name
+def getSalary(self):
+...
+harry = Employee("Harry")

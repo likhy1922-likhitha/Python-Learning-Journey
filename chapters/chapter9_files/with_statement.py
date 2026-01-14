@@ -3,8 +3,8 @@
 # print(f.read())
 
 # f.close()
-# when u dont need moe code you can write 
-# with the with statement
+# when u dont need more code you can write 
+# with the "with" statement
 
 with open("file.txt" ) as f:
     print(f.read())
